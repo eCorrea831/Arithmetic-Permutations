@@ -10,8 +10,16 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+
+        NSMutableArray * operators = [[NSMutableArray alloc]initWithObjects:@"+", @"-", @"/", @"*", nil];
+        
+        NSString * numbers = @"31426";
+        NSNumber * sum = @51;
+        
+        
+        
+        
+        
     }
     return 0;
 }
