@@ -11,3 +11,5 @@ o 3+1*4*2*6
 o 3/1+4*2*6
 o 3*1+4*2*6
 o 31+14+6
+
+USE NSEXPRESSION (libraries)

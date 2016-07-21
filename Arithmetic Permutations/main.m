@@ -7,18 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Utilities.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-
-        NSMutableArray * operators = [[NSMutableArray alloc]initWithObjects:@"+", @"-", @"/", @"*", nil];
         
         NSString * numbers = @"31426";
         NSNumber * sum = @51;
         
-        
-        
-        
+        Utilities * utility = [[Utilities alloc]init];
+        [utility calculate:numbers :sum];
         
     }
     return 0;
